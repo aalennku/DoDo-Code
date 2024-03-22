@@ -16,7 +16,7 @@ python3 test_sequence.py --length 8 --seed 0 --gpu 0 --save-path='./8/best/' --n
 python3 test_sequence_rs.py --length 8 --seed 0 --gpu 0 --save-path='./8/best/' --eccsym=0.02
 
 
-### ======================= Comparison \ Ablation study =========================== #
+======================= Comparison \ Ablation study ===========================
 ### Generate codeword by random search. Results saved in './random'
 python3 generate_random_codeword.py --seed 0 --length 8
 
