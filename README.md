@@ -25,3 +25,15 @@
 
 ### Sequence decoding which forbids more than one error in the same segment. 
     python3 test_sequence_double_error_forbidden.py --length 8 --seed 0 --gpu 0 --save-path='./8/best/' --number=10000
+
+
+## Citation
+
+```
+@inproceedings{Guo2025DoDoCode,
+  author    = {Guo, Alan J.X. and Sun, Sihan and Wei, Xiang and Wei, Mengyi and Chen, Xin},
+  title     = {{DoDo-Code: an Efficient Levenshtein Distance Embedding-based Code for 4-ary IDS Channel}},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2025},
+}
+```
